@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Section with Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .product-team-solution-section {
+  background-color: #14122b; /* dark background to match the image */
+  color: #ffffff;
+}
+
+.product-team-solution-section .heading-label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.product-team-solution-section .highlight-yellow {
+  color: #f6c90e;
+}
+
+.product-team-solution-section .box {
+  background-color: #1e1c3a;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #2c294d;
+  color: #ffffff;
+}
+
+.product-team-solution-section .plus-symbol,
+.product-team-solution-section .equal-symbol {
+  color: #f6c90e;
+}
+
+    .hero-text strong {
+      display: inline-block;
+      margin: 0 4px;
+      background: linear-gradient(90deg, #e0e0ff, #ffe0e0, #e0ffe0);
+      padding: 0 5px;
+      border-radius: 4px;
+    }
+
+    .hero-img {
+      max-height: 300px;
+    }
+
+    .brand-logo {
+      max-height: 60px;
+    }
+/* Our Offerings Section Colors */
+    .bg-light-green {
+      background-color: #e6f7f1;
+    }
+
+    .bg-light-orange {
+      background-color: #fff3e5;
+    }
+
+    .bg-light-purple {
+      background-color: #f8edfc;
+    }
+
+    .text-light-green-strong {
+      color: #00a86b;
+    }
+
+    .text-light-orange-strong {
+      color: #f4a261;
+    }
+
+    .text-light-purple-strong {
+      color: #9b5de5;
+    }
+    .heading-label {
+      font-weight: bold;
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .highlight-yellow {
+      color: #ffc107;
+    }
+
+    .box {
+      background-color: #f8f9fa;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .plus-symbol, .equal-symbol {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #000;
+    }
+.scrolling-container {
+      overflow: hidden;
+      white-space: nowrap;
+      background-color: #f8f9fc;
+      padding: 2rem 0;
+    }
+
+    .scrolling-track {
+      display: inline-block;
+      animation: scroll-left 20s linear infinite;
+    }
+
+    .scrolling-track .badge {
+      margin-right: 1rem;
+    }
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.bg-lightblue {
+  background-color: #e6f7fb;
+}
+
+.fixed-bid-section {
+  background-color: #1d1b32;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+.testimonial-card {
+      position: relative;
+      padding-top: 2.5rem;
+    }
+    .testimonial-card .quote-icon {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      font-size: 3rem;
+      color: #FFDD57;
+      line-height: 1;
+    }
+    .testimonial-card .card-body {
+      padding: 1.5rem;
+    }
+    .testimonial-card .avatar {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+    }
+    .product-team-solution-section {
+  background-color: #14122b;
+  color: #ffffff;
+}
+
+.table th, .table td {
+      vertical-align: middle;
+      text-align: center;
+    }
+    .bg-crayond {
+      background-color: #e8f5e9;
+    }
+    .highlight-crayond {
+      background-color: #c8e6c9;
+      font-weight: bold;}
+      
+  .highlight {
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 4px;
+    border-radius: 4px;
+  }
+  .bg-purple { background-color: #f3ebff; }
+  .bg-orange { background-color: #fff1db; }
+  .bg-pink   { background-color: #ffeaf6; }
+  .bg-green  { background-color: #eafbf0; }
+  .bg-blue   { background-color: #edf3ff; }
+
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="cray.jpg" alt="Logo" height="30" class="me-2">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#">Fixed Bid</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Who We Are</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item ms-2">
+          <a href="#" class="btn btn-outline-primary">Schedule a Call</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="row justify-content-center align-items-center text-center">
+      <div class="col-lg-10">
+        <h4 class="display-5 fw-bold mb-4">
+          We help startups and enterprises build products <br>
+          that are
+          <span class="highlight bg-lightblue">usable</span>,
+          <span class="highlight bg-orange">blazing fast</span>,
+          <span class="highlight bg-pink">bug-free</span>,<br>
+          <span class="highlight bg-green">secure</span> and
+          <span class="highlight bg-purple">scalable</span>
+        </h4>
+        <p class="lead text-dark mb-4">
+          <strong>Product engineering, done right. 100% risk-free, expert results guaranteed.</strong>
+        </p>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+          <a href="#" class="btn btn-primary px-4">View Plans</a>
+          <a href="#" class="btn btn-outline-primary px-4">Schedule a Call</a>
+        </div>
+        <div class="mt-5">
+  <img src="brands/crayond logo.jpg" alt="Illustration" class="img-fluid w-100 d-block">
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trusted Brands -->
+<div class="row g-4 justify-content-center">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/Chennai_Super_Kings_Logo.svg.png"
+             alt="Chennai Super Kings" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/6_Choosemybiclcye.png"
+             alt="Mercedes Benz" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/14_ziba.png" alt="ZIBA" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/3_benz.png" alt="Choose My Bicycle" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/syneroy_group_new.png" alt="Health Circles" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/india_cements_logo_final.png"
+             alt="Chennai Super Kings" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/20_health_circles.png"
+             alt="Mercedes Benz" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/2_propgoto.png" alt="ZIBA" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/21_enlite_U.png" alt="Choose My Bicycle" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/4_emtax.png" alt="Health Circles" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/caratlane_new.png"
+             alt="Chennai Super Kings" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/8_sprotzchain.png"
+             alt="Mercedes Benz" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/7_ainqa.png" alt="ZIBA" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/9_pickyourtrail.png" alt="Choose My Bicycle" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/16_pinecrow.png" alt="Health Circles" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/10_tanyacare.png"
+             alt="Chennai Super Kings" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/13_hays.png"
+             alt="Mercedes Benz" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/17_NAC.png" alt="ZIBA" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/18_stylori.png" alt="Choose My Bicycle" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+        <img src="brands/15_colabo.png" alt="Health Circles" class="img-fluid mx-auto d-block brand-logo" />
+      </div>
+    </div>
+    <br>
+
+<!-- Problem-Solution Section -->
+<section class="product-team-solution-section py-5 text-center">
+  <div class="container text-white">
+    <h2 class="fw-bold mb-2">Don't let the challenges of building a product team slow you down.</h2>
+    <h4 class="mb-4">Let us help you achieve your goals</h4>
+    <p class="lead mb-5">Here's a new way to build good products.</p>
+<div class="text-center">
+  <img src="brands/calci.png" alt="Product Team Solution Diagram" class="img-fluid" />
+</div>
+
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Our Offerings Section -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold">Our offerings</h2>
+    <p class="text-muted mb-5">
+      From idea / problem solving to launch, we get you covered with our offerings
+    </p>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 h-100 shadow-sm bg-light-green position-relative">
+          <span class="position-absolute top-0 start-0 p-3 fs-1 text-light-green-strong" style="opacity: 0.2;">1</span>
+          <h5 class="fw-bold mt-4">UI/UX</h5>
+          <p class="text-muted">
+            Craft your idea into a delightful product experience to solve your user problems with our expert product and UI/UX design team.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 h-100 shadow-sm bg-light-orange position-relative">
+          <span class="position-absolute top-0 start-0 p-3 fs-1 text-light-orange-strong" style="opacity: 0.2;">2</span>
+          <h5 class="fw-bold mt-4">Full-stack development</h5>
+          <p class="text-muted">
+            Launch your idea into a world-class product or modernize legacy systems through front-end, back-end engineering and DevOps.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 rounded-4 h-100 shadow-sm bg-light-purple position-relative">
+          <span class="position-absolute top-0 start-0 p-3 fs-1 text-light-purple-strong" style="opacity: 0.2;">3</span>
+          <h5 class="fw-bold mt-4">Front-end development</h5>
+          <p class="text-muted">
+            We help you build beautiful + usable interfaces on web / mobile and integrate them with your APIs through front-end engineering.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Benefits Section -->
+<section class="py-5" style="background-color: #f8f9fc;">
+  <div class="container text-center">
+    <h2 class="fw-bold">Benefits you’ll love</h2>
+    <p class="text-muted mb-5">And moreover, comfortably repeatable.</p>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Affordable Card -->
+      <div class="col-md-4">
+        <div class="border rounded-4 p-4 h-100 bg-white shadow-sm">
+          <div class="fs-3 mb-3">😊</div>
+          <h5 class="fw-bold">Affordable</h5>
+          <p class="text-muted">
+            High-quality product engineering services that fits your budget, without compromising on quality.
+          </p>
+        </div>
+      </div>
+
+      <!-- Risk-free Card -->
+      <div class="col-md-4">
+        <div class="border rounded-4 p-4 h-100 bg-white shadow-sm">
+          <div class="fs-3 mb-3">🙂</div>
+          <h5 class="fw-bold">Risk-free</h5>
+          <p class="text-muted">
+            Zero risks in terms of talent, scalability, and quality. Pay only for what you need, without any commitments.
+          </p>
+        </div>
+      </div>
+
+      <!-- Flexible Card -->
+      <div class="col-md-4">
+        <div class="border rounded-4 p-4 h-100 bg-white shadow-sm">
+          <div class="fs-3 mb-3">😎</div>
+          <h5 class="fw-bold">Flexible</h5>
+          <p class="text-muted">
+            Product engineering services that can be scaled up or down as per your needs, do it the right way.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="scrolling-container">
+  
+    <span class="badge rounded-pill bg-light text-dark px-4 py-2 fs-6 fw-semibold shadow-sm">Minimal tech debt</span>
+    <span class="badge rounded-pill bg-light text-dark px-4 py-2 fs-6 fw-semibold shadow-sm">Frameworks to SaaSify</span>
+    <span class="badge rounded-pill bg-light text-dark px-4 py-2 fs-6 fw-semibold shadow-sm">Completely agile</span>
+    <span class="badge rounded-pill bg-light text-dark px-4 py-2 fs-6 fw-semibold shadow-sm">Secure and scalable</span>
+    <span class="badge rounded-pill bg-light text-dark px-4 py-2 fs-6 fw-semibold shadow-sm">Idea to product</span>
+    <span class="badge rounded-pill bg-light text-dark px-4 py-2 fs-6 fw-semibold shadow-sm">Matured deliveryops</span>
+    <span class="badge rounded-pill bg-light text-dark px-4 py-2 fs-6 fw-semibold shadow-sm">Collaborative and as one team</span>
+
+
+</section>
+    </div>
+    <section class="py-5 text-center text-white" style="background-color: #2C2946;">
+  <div class="container">
+    <h2 class="fw-bold mb-3">Value based plans</h2>
+    <p class="lead text-white mb-5">
+      Transparent and outcome driven so guess on what is going to cost
+    </p>
+
+    <div class="row justify-content-center">
+      <!-- Idea to Design Card -->
+      <div class="col-md-4 mb-3">
+        <div class="card text-white bg-primary h-100 shadow" style="border-radius: 12px;">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Idea to design</h5>
+            <p class="card-text small">
+              Turn your vision into a prototype<br />
+              with our expert product design team
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Design to Build Card -->
+      <div class="col-md-4 mb-3">
+        <div class="card border-0 shadow h-100" style="border-radius: 12px;">
+          <div class="card-body text-dark">
+            <h5 class="card-title fw-bold">Design to Build</h5>
+            <p class="card-text small">
+              Turn your prototype into a<br />
+              functional end product with our<br />
+              skilled engineering team
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Add-ons Section -->
+<section class="addons-section py-5 text-center bg-lightblue">
+  <div class="container">
+    <h4 class="fw-bold mb-4">
+      Add toppings to enhance your product lifecycle with our invaluable 
+      <span class="text-primary text-decoration-underline">add-ons</span>
+    </h4>
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <ul class="list-unstyled d-flex flex-wrap justify-content-center gap-3">
+          <li>• Roadmap grooming (Product)</li>
+          <li>• Product management (Product)</li>
+          <li>
+            • Product research (Product)
+            <span class="badge bg-danger text-white ms-2">RECOMMENDED</span>
+          </li>
+          <li>• System design (Engineering)</li>
+          <li>
+            • Technical architecture and solution (Engineering)
+            <span class="badge bg-danger text-white ms-2">RECOMMENDED</span>
+          </li>
+          <li>• BDD test automation (QA)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fixed-bid Section -->
+<section class="fixed-bid-section py-5 text-white bg-dark position-relative">
+  <div class="container position-relative z-1">
+    <div class="row align-items-center">
+      <div class="col-md-8">
+        <h2 class="fw-bold mb-3">Looking for a fixed-bid model to work with?</h2>
+        <p class="mb-4">We have executed several large fixed-bid projects, we’d love to talk.</p>
+<h6 style="color: rgb(253, 251, 251);" class="mb-3">Our fixed-bid engagement models</h6>
+        <div class="d-flex gap-3">
+          <button class="btn btn-outline-light rounded-pill px-4">Cash only</button>
+          <button class="btn btn-outline-light rounded-pill px-4">Cash + equity</button>
+        </div>
+      </div>
+      <div class="col-md-4 text-end">
+        <a href="#" class="btn btn-light text-primary fw-bold rounded-pill px-4 py-2 shadow-sm">
+          VIEW DETAILS <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Decorative background circles (optional, replace with SVG or CSS as needed) -->
+  <div class="position-absolute top-0 end-0 w-100 h-100" style="background: url('assets/images/fixed-bid-bg.svg') no-repeat right bottom; background-size: contain; z-index: 0;"></div>
+</section>
+
+<section class="py-5 text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-2">Know our process and how we deliver</h2>
+    <p class="text-muted mb-4">
+      From start to finish, we keep you informed with stage-wise updates.
+    </p>
+
+    <!-- Toggle Tabs -->
+    <div class="d-inline-flex mb-5">
+      <button class="btn btn-primary me-1">Idea to design</button>
+      <button class="btn btn-outline-primary">Design to build</button>
+    </div>
+
+    <!-- Process Steps Grid -->
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="border rounded-3 p-3 h-100">
+          <div class="d-flex align-items-start">
+            <div class="me-2">
+              <span class="fs-5 fw-bold text-secondary">01</span>
+            </div>
+            <div class="text-start">
+              <p class="mb-1 small text-muted">Get to know the business<br>problem, product & scope</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="border rounded-3 p-3 h-100">
+          <div class="d-flex align-items-start">
+            <div class="me-2">
+              <span class="fs-5 fw-bold text-secondary">02</span>
+            </div>
+            <div class="text-start">
+              <p class="mb-1 small text-muted">We convert the problem<br>statements into user stories</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="border rounded-3 p-3 h-100">
+          <div class="d-flex align-items-start">
+            <div class="me-2">
+              <span class="fs-5 fw-bold text-secondary">03</span>
+            </div>
+            <div class="text-start">
+              <p class="mb-1 small text-muted">We produce wireframes<br>for those stories</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="border rounded-3 p-3 h-100">
+          <div class="d-flex align-items-start">
+            <div class="me-2">
+              <span class="fs-5 fw-bold text-secondary">04</span>
+            </div>
+            <div class="text-start">
+              <p class="mb-1 small text-muted">We collaborate with you<br>to be on the same page</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="border rounded-3 p-3 h-100">
+          <div class="d-flex align-items-start">
+            <div class="me-2">
+              <span class="fs-5 fw-bold text-secondary">05</span>
+            </div>
+            <div class="text-start">
+              <p class="mb-1 small text-muted">We create the estimates<br>for full-fledged design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="border rounded-3 p-3 h-100">
+          <div class="d-flex align-items-start">
+            <div class="me-2">
+              <span class="fs-5 fw-bold text-secondary">06</span>
+            </div>
+            <div class="text-start">
+              <p class="mb-1 small text-muted">We seek your approval on<br>the estimates and go ahead</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="border rounded-3 p-3 h-100">
+          <div class="d-flex align-items-start">
+            <div class="me-2">
+              <span class="fs-5 fw-bold text-secondary">07</span>
+            </div>
+            <div class="text-start">
+              <p class="mb-1 small text-muted">Our experts turn stories<br>into design prototype</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="border rounded-3 p-3 h-100">
+          <div class="d-flex align-items-start">
+            <div class="me-2">
+              <span class="fs-5 fw-bold text-secondary">08</span>
+            </div>
+            <div class="text-start">
+              <p class="mb-1 small text-muted">We iterate with you to<br>freeze the design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <div class="p-4 rounded bg-white shadow-sm mx-auto" style="max-width: 1100px;">
+    <h2 class="text-center mb-3">Here are the facts</h2>
+    <p class="text-center text-muted mb-4">
+      When you want reliability and outcomes, choose us. You will love us just like our customers.
+    </p>
+
+    <div class="table-responsive">
+      <table class="table table-bordered align-middle mb-0">
+        <thead class="table-light">
+          <tr>
+            <th></th>
+            <th>Standard development agencies</th>
+            <th>In-house</th>
+            <th class="bg-success text-white fw-bold">Crayon'd ✨</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Value for the money</td>
+            <td>💰💰 Risky</td>
+            <td>💰 Risky</td>
+            <td class="bg-success bg-opacity-25 fw-bold">🛡 Risk-free + value driven</td>
+          </tr>
+          <tr>
+            <td>Knowledge capital (Ideation + design + dev + scrum)</td>
+            <td>🧘 Minimal</td>
+            <td>🧘 Minimal</td>
+            <td class="bg-success bg-opacity-25 fw-bold">✅ Very high</td>
+          </tr>
+          <tr>
+            <td>Truly agile</td>
+            <td>🧘 Partially</td>
+            <td>🧘 Partially</td>
+            <td class="bg-success bg-opacity-25 fw-bold">✅ Assured</td>
+          </tr>
+          <tr>
+            <td>Experience in shipping successful products</td>
+            <td>🧘 Maybe</td>
+            <td>🧘 Maybe</td>
+            <td class="bg-success bg-opacity-25 fw-bold">🚀 Solid case studies</td>
+          </tr>
+          <tr>
+            <td>Crafting delightful product experiences</td>
+            <td>📉 Mediocre results</td>
+            <td>📈 Good results</td>
+            <td class="bg-success bg-opacity-25 fw-bold">❤ Crafted with love</td>
+          </tr>
+          <tr>
+            <td>Accelerate product vision with pre-built frameworks</td>
+            <td>❌ No shortcuts</td>
+            <td>❌ No shortcuts</td>
+            <td class="bg-success bg-opacity-25 fw-bold">🔥 Powerful frameworks</td>
+          </tr>
+          <tr>
+            <td>Smooth delivery-ops throughout product life cycle</td>
+            <td>⚖ A mixed bag</td>
+            <td>⚖ A mixed bag</td>
+            <td class="bg-success bg-opacity-25 fw-bold">🔶 Matured delivery-ops</td>
+          </tr>
+          <tr>
+            <td>Cost-effective scaled product engineering</td>
+            <td>💸💸💸 Expensive and inefficient</td>
+            <td>💸 Expensive and inefficient</td>
+            <td class="bg-success bg-opacity-25 fw-bold">💡 Scalable and efficient</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="text-center mt-4 p-3 bg-dark text-white rounded">
+      <p class="mb-3">We're just a step away to collaborate &amp; ship great product experience for you.</p>
+      <a href="#" class="btn btn-light fw-bold">GET STARTED</a>
+    </div>
+  </div>
+</div>
+<section class="py-5 text-white" style="background-color: #1e1d35;">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-3">Our journey so far</h2>
+    <p class="lead text-white fw-bold mb-4">
+  We have helped startups and enterprises build successful products.
+</p>
+
+    
+    <!-- Divider -->
+    <div class="d-flex justify-content-center mb-4">
+      <span style="width: 40px; height: 2px; background: #ccc; display: block;"></span>
+    </div>
+
+    <!-- Metrics Row -->
+    <div class="row text-warning fw-bold">
+      <div class="col-6 col-md-3 mb-3">
+        <h3 class="display-6">120+</h3>
+        <p class="text-uppercase text-white-50 mb-0">Products</p>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <h3 class="display-6">30+</h3>
+        <p class="text-uppercase text-white-50 mb-0">MVPs</p>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <h3 class="display-6">10000+</h3>
+        <p class="text-uppercase text-white-50 mb-0">Feature</p>
+      </div>
+      <div class="col-6 col-md-3 mb-3">
+        <h3 class="display-6">12+</h3>
+        <p class="text-uppercase text-white-50 mb-0">Domains</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Hear from our delighted customers</h2>
+      <p class="text-muted fs-5">Strong relationships, big product ambitions.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm testimonial-card">
+          <div class="quote-icon">&ldquo;</div>
+          <div class="card-body">
+            <p class="card-text">
+              Words aren't enough to describe the way Crayon's empathizes and works on making your dream come true. They are a boon to startups.
+            </p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="assets/Reviewer/Emtax-Ceo-Balaji.png" alt="Balaji Ramaswami" class="rounded-circle avatar me-3">
+              <div>
+                <h6 class="mb-0 fw-bold">Balaji Ramaswami</h6>
+                <small class="text-muted">CEO, Emtax</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm testimonial-card">
+          <div class="quote-icon">&ldquo;</div>
+          <div class="card-body">
+            <p class="card-text">
+              Crayon'd has been a reliable and skilled partner in our product journey. Their overall product engineering capabilities and agility were critical to our success.
+            </p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="assets/Reviewer/Pa-Ceo- Sheriff.png" alt="Sheriff Ismail" class="rounded-circle avatar me-3">
+              <div>
+                <h6 class="mb-0 fw-bold">Sheriff Ismail</h6>
+                <small class="text-muted">CTO, Dynamic Netsoft</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm testimonial-card">
+          <div class="quote-icon">&ldquo;</div>
+          <div class="card-body">
+            <p class="card-text">
+              The team at Crayon'd has shown great resolve and has been exceptional in challenging circumstances. They've always gone over and beyond in the deliverables.
+            </p>
+            <div class="d-flex align-items-center mt-4">
+              <img src="assets/Reviewer/TCare-Mahesh.png" alt="Mahesh Ramakrishnan" class="rounded-circle avatar me-3">
+              <div>
+                <h6 class="mb-0 fw-bold">Mahesh Ramakrishnan</h6>
+                <small class="text-muted">CTO, AINQA</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Next Section: Testimonials Header -->
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-2">Hear from our delighted customers</h2>
+    <p class="text-muted fs-5">Strong relationships, big product ambitions.</p>
+  </div>
+</section>
+<div class="container">
+<h2 class="mb-4 text-center">Frequently Asked Questions</h2>
+    <div class="row">
+      
+      <!-- Left Column -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionLeft">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Can we sign an NDA?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                Yes, that would be the first step. We value your trust, business, and ideas. Your sensitive information will be handled with utmost confidentiality as we partner in your success.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Do you offer any guarantees?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                <!-- Placeholder content -->
+                We offer satisfaction guarantees based on milestones and quality agreements.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Do you provide support services after the product development completes?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                Yes, we provide post-launch support and maintenance packages tailored to your needs.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Can you work across different time zones?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                Absolutely, we have experience collaborating with clients globally.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Do you have experience working with in-house dev or design teams?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                Yes, we often collaborate with in-house teams to extend capabilities and scale delivery.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Do you employ freelancers?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionLeft">
+              <div class="accordion-body">
+                We rely on a dedicated full-time team to ensure quality, consistency, and accountability.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6">
+        <div class="accordion" id="accordionRight">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                How do you certify the quality of features built?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                Our QA process includes manual testing, automated testing, and client approval checkpoints.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                What do you refer to as pre-built frameworks?
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                Reusable libraries and templates that accelerate development without compromising quality.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                Who owns the code and IP?
+              </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                You own 100% of the code and intellectual property once the project is completed and paid for.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTen">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                What industries do you offer?
+              </button>
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                We serve industries including healthcare, fintech, e-commerce, education, and more.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEleven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                What communication and project management tools do you use?
+              </button>
+            </h2>
+            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                We use Slack, Jira, Trello, Asana, and Zoom depending on client preferences.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwelve">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                Where are your company and team located?
+              </button>
+            </h2>
+            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionRight">
+              <div class="accordion-body">
+                Our headquarters is located in [Your Location], with distributed teams worldwide.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <section class="py-5 bg-light">
+  <div class="container">
+    <div class="row gy-5">
+      <div class="col-lg-4">
+        <h4 class="fw-bold mb-3">Ready to make<br />something amazing?</h4>
+        <a href="#get-started" class="btn btn-primary mb-4">GET STARTED</a>
+        <div class="mb-3">
+          <img
+            src="cray.jpg"
+            alt="CrayonD Badge"
+            class="img-fluid"
+            style="max-width: 180px;"
+          />
+        </div>
+        <p class="small text-muted mb-1">
+          &copy; Crayond Digital Pvt. Ltd.
+        </p>
+        <p class="small text-muted">All rights reserved</p>
+        <div class="d-flex gap-3">
+          <a href="https://www.linkedin.com/company/crayond/" class="text-muted fs-5"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.facebook.com/CrayonDigital/" class="text-muted fs-5"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/crayondofficial/" class="text-muted fs-5"><i class="bi bi-instagram"></i></a>
+          <a href="https://twitter.com/crayondofficial" class="text-muted fs-5"><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+ <div class="col-6 col-md-4 col-lg-2">
+  <h6 class="fw-semibold mb-3">Company</h6>
+  <ul class="list-unstyled">
+    <li class="mb-3">
+      <a href="https://www.crayond.com/fixed-bid" class="text-muted text-decoration-none">Fixed Bid</a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/who-we-are" class="text-muted text-decoration-none">Who We Are</a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/contact" class="text-muted text-decoration-none">Contact</a>
+    </li>
+  </ul>
+</div>
+<div class="col-6 col-md-4 col-lg-3">
+  <h6 class="fw-semibold mb-3">Resources</h6>
+  <ul class="list-unstyled">
+    <li class="mb-3">
+      <a href="https://www.crayond.com/accelerators_and_investors" class="text-muted text-decoration-none">
+        For Accelerators & Investors
+      </a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/blog" class="text-muted text-decoration-none">
+        Blog
+      </a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/glossary" class="text-muted text-decoration-none">
+        Glossary
+      </a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/saas-metrics/index" class="text-muted text-decoration-none">
+        SaaS Metrics
+      </a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/case-studies" class="text-muted text-decoration-none">
+        Case Studies
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="col-6 col-md-4 col-lg-3">
+  <h6 class="fw-semibold mb-3">Ultimate Guides</h6>
+  <ul class="list-unstyled">
+    <li class="mb-3">
+      <a href="https://www.crayond.com/blog/design-sprint/?utm_source=footer" class="text-muted text-decoration-none">
+        Design Sprint
+      </a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/blog/the-aha-moment-guide/?utm_source=footer" class="text-muted text-decoration-none">
+        Aha Moment
+      </a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/blog/what-is-the-cost-to-build-a-saas-product/?utm_source=footer" class="text-muted text-decoration-none">
+        Cost To Build a SaaS Product
+      </a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/blog/what-is-the-cost-to-build-a-saas-product/?utm_source=footer" class="text-muted text-decoration-none">
+        Product Development
+      </a>
+    </li>
+    <li class="mb-3">
+      <a href="https://www.crayond.com/blog/top-8-saas-frameworks-to-power-your-next-product/?utm_source=footer" class="text-muted text-decoration-none">
+        SaaS Framework
+      </a>
+    </li>
+  </ul>
+</div>
+
+  </div>
+</section>
+<footer class="bg-light text-dark py-3 border-top">
+  <div class="container">
+    <div class="row justify-content-between text-center text-md-start">
+      <div class="col-md-auto mb-2 mb-md-0 d-flex justify-content-center justify-content-md-start align-items-center gap-3">
+        <a href="https://www.crayond.com/privacy" class="text-dark text-decoration-none">Privacy</a>
+        <span>|</span>
+        <a href="https://www.crayond.com/gdpr" class="text-dark text-decoration-none">GDPR</a>
+      </div>
+      <div class="col-md-auto mb-2 mb-md-0 d-flex justify-content-center justify-content-md-start align-items-center gap-3">
+        <span>hello@crayond.com</span>
+        <span>|</span>
+        <span>+(91) 74483 90100</span>
+      </div>
+      <div class="col-md-auto text-center text-md-end">
+        <span>
+          2/498, Ayshika, Sunrise Avenue 2nd Cross Street,<br>
+          Neelankarai, Chennai, India
+        </span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
