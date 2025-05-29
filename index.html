@@ -190,24 +190,31 @@
 
 
   <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+<nav class="navbar navbar-expand-lg bg-white py-3">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="cray.jpg" alt="Logo" height="30" class="me-2">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="cray.jpg" alt="Logo" height="40" />
     </a>
+
+    <!-- Toggle for mobile -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav align-items-center">
-        <li class="nav-item"><a class="nav-link" href="#">Fixed Bid</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Who We Are</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        <li class="nav-item ms-2">
-          <a href="#" class="btn btn-outline-primary">Schedule a Call</a>
-        </li>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link px-3" href="#">Fixed Bid</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#">Who We Are</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#">Resources</a></li>
+        <li class="nav-item"><a class="nav-link px-3" href="#">Contact</a></li>
       </ul>
+    </div>
+
+    <!-- Call to Action Button -->
+    <div class="d-none d-lg-block">
+      <a href="#" class="btn btn-outline-primary fw-bold text-uppercase">Schedule a Call</a>
     </div>
   </div>
 </nav>
